@@ -6,6 +6,7 @@ html, body {
 .container {
     max-width: 1024px;
     margin: 0 auto;
+    margin-bottom: 5rem;
 }
 
 table.board_list {
@@ -26,6 +27,10 @@ tr th {
     width: 100px;
 }
 
+a, a:hover, a:visited {
+    color: #00f;
+}
+
 a, a:hover {
     text-decoration: none;
 }
@@ -41,3 +46,39 @@ table.board_list tbody tr:nth-child(even) {
 table.board_list tbody tr:hover {
     background-color: #d4ffe8;
 }
+
+h2.title {
+    border-top: 2px solid #ddd;
+    padding: 0.5rem;
+}
+
+dl.summary {
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    display: flex;
+}
+
+dl.summary dt {
+    margin-right: 0.5rem;
+    font-weight: bold;
+}
+
+dl.summary dd {
+    margin-right: 2rem;
+}
+
+div.content {
+    max-width: 100%;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 1rem;
+}
+
+div.content img {
+    max-width: 100%;
+    height: auto;
+}
+
+div.btns {
+    text-align: center;
+}
+
