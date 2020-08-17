@@ -1,0 +1,43 @@
+html, body {
+    all: unset;
+    font-size: 14px;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+table.board_list {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 0.25rem;
+}
+
+tr th {
+
+}
+
+.datetime {
+    width: 100px;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f00;
+}
+
+table.board_list tbody tr:nth-child(even) {
+    background-color: #f1f1f1;
+}
+
+table.board_list tbody tr:hover {
+    background-color: #d4ffe8;
+}
